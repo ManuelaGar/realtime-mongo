@@ -17,7 +17,7 @@ function App () {
       setUser(user)
 
       // Connect to the database
-      const mongodb = app.currentUser.mongoClient()
+      const mongodb = app.currentUser.mongoClient(process.env.REACT_APP_MONGO_CLIENT)
       const collection = mongodb.db(process.env.REACT_APP_MONGO_DB).collection(process.env.REACT_APP_MONGO_COLLECTION)
 
       // Everytime a change happens in the stream, add it to the list of events
