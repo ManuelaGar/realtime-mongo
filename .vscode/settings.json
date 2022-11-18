@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // "standard.run": "onSave",
+  // "standard.autoFixOnSave": true,
+  // "standard.engine": "ts-standard",
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": true,
+  "standard.enable": true
+}
